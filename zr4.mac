@@ -1,0 +1,16 @@
+; Copyright 2011-2020 - Mersenne Research, Inc.  All rights reserved
+; Author:  George Woltman
+; Email: woltman@alum.mit.edu
+;
+
+;; Include other macro files needed by the AVX-512 versions of our primarily radix-4/8 traditional FFTs
+
+INCLUDE zr5.mac
+INCLUDE zr6.mac
+INCLUDE zr7.mac
+INCLUDE zr8.mac
+INCLUDE zr10.mac
+INCLUDE zr12.mac
+INCLUDE zr16.mac
+INCLUDE zr64.mac
+
